@@ -7,7 +7,7 @@
 
 # Soal Latihan Praktikum ( Pegawai )
 
-![image](https://github.com/nurulaisyah14/TugasPraktikum4/assets/148174512/914ad61d-7c8d-4f9c-b2f0-9a7597e5532b)
+![image]()
 
 
 **Perintah SQL :**
@@ -36,7 +36,7 @@ INSERT INTO pegawai VALUES
 
 ***Output :***
 
-![alt text]![Screenshot 2024-05-20 134009](https://github.com/nurulaisyah14/TugasPraktikum4/assets/148174512/5447855e-fa88-40db-98cd-4d3c34efd56e)
+![alt text]![Screenshot 2024-05-20 134009]()
 
 
 ## Tugas Praktikum
@@ -49,7 +49,7 @@ SELECT*FROM pegawai WHERE gaji NOT IN (2000000, 1250000);
 
 ***Output :***
 
-![Screenshot 2024-05-20 134110](https://github.com/nurulaisyah14/TugasPraktikum4/assets/148174512/00604c68-cdf5-4b67-9254-7457879b8b9a)
+![Screenshot 2024-05-20 134110]()
 Pernyataan ini menampilkan semua kolom dari tabel pegawai untuk pegawai yang gajinya tidak sama dengan 2.000.000 dan 1.250.000. Kondisi NOT IN (2000000, 1250000) memastikan bahwa hanya pegawai dengan gaji selain kedua nilai tersebut yang ditampilkan.
 
 
@@ -61,7 +61,7 @@ SELECT*FROM pegawai WHERE tunjangan IS NULL;
 
 ***Output :***
 
-![Screenshot 2024-05-20 134155](https://github.com/nurulaisyah14/TugasPraktikum4/assets/148174512/9e6b6df7-d5fe-4fee-af98-deffd3bda3e5)
+![Screenshot 2024-05-20 134155]()
 Pernyataan ini menampilkan semua kolom dari tabel pegawai untuk pegawai yang tidak memiliki tunjangan. Kondisi tunjangan IS NULL digunakan untuk memeriksa nilai NULL dalam kolom tunjangan.
 
 
@@ -73,7 +73,7 @@ SELECT*FROM pegawai WHERE tunjangan IS NOT NULL;
 
 ***Output :***
 
-![Screenshot 2024-05-20 134331](https://github.com/nurulaisyah14/TugasPraktikum4/assets/148174512/62eb668a-e4d0-4fe6-a209-f0a3f00b8470)
+![Screenshot 2024-05-20 134331]()
 Pernyataan ini menampilkan semua kolom dari tabel pegawai untuk pegawai yang memiliki tunjangan. Kondisi tunjangan IS NOT NULL digunakan untuk memeriksa nilai yang bukan NULL dalam kolom tunjangan.
 
 
@@ -86,7 +86,7 @@ SELECT COUNT(*) AS jmlh_pegawai FROM pegawai;
 
 ***Output :***
 
-![Screenshot 2024-05-20 134417](https://github.com/nurulaisyah14/TugasPraktikum4/assets/148174512/0d6d38be-022b-41f1-b5ed-c5ff012858be)
+![Screenshot 2024-05-20 134417]()
 Pernyataan ini menghitung jumlah total baris atau record dalam tabel pegawai. Fungsi COUNT(*) mengembalikan jumlah total baris yang ada, dan hasilnya diberi alias jumlah_pegawai.
 
 
@@ -98,7 +98,7 @@ SELECT SUM(gaji) AS ttl_gaji FROM pegawai;
 
 ***Output :***
 
-![Screenshot 2024-05-20 134453](https://github.com/nurulaisyah14/TugasPraktikum4/assets/148174512/724e2bfd-307e-4df4-a34a-7ad181f2a2a1)
+![Screenshot 2024-05-20 134453]()
 Pernyataan ini menghitung jumlah total gaji dari semua pegawai dalam tabel pegawai. Fungsi SUM(gaji) menjumlahkan nilai dalam kolom gaji untuk setiap baris, dan hasilnya diberi alias total_gaji.
 
 
@@ -110,7 +110,7 @@ SELECT AVG(gaji) AS mean_gaji FROM pegawai;
 
 ***Output :***
 
-![Screenshot 2024-05-20 134536](https://github.com/nurulaisyah14/TugasPraktikum4/assets/148174512/d917e8b6-ff90-4608-a119-70d99e986863)
+![Screenshot 2024-05-20 134536]()
 Pernyataan ini menghitung rata-rata gaji dari semua pegawai dalam tabel pegawai. Fungsi AVG(gaji) mengembalikan nilai rata-rata dari kolom gaji, dan hasilnya diberi alias rata_rata_gaji.
 
 
@@ -122,7 +122,7 @@ SELECT MIN(gaji) AS terkecil FROM pegawai;
 
 ***Output :***
 
-![Screenshot 2024-05-20 134607](https://github.com/nurulaisyah14/TugasPraktikum4/assets/148174512/dcd5d587-8245-4d31-b27e-2672bd3506bf)
+![Screenshot 2024-05-20 134607]()
 Pernyataan ini menampilkan gaji terkecil di antara semua pegawai dalam tabel pegawai. Fungsi MIN(gaji) mengembalikan nilai terkecil dari kolom gaji, dan hasilnya diberi alias gaji_terkecil.
 
 
@@ -134,13 +134,13 @@ SELECT MAX(gaji) AS terbesar FROM pegawai;
 
 ***Output :***
 
-![Screenshot 2024-05-20 134633](https://github.com/nurulaisyah14/TugasPraktikum4/assets/148174512/caa4347c-c5ee-40d4-be42-3826c25fc840)
+![Screenshot 2024-05-20 134633]()
 Pernyataan ini menampilkan gaji terbesar di antara semua pegawai dalam tabel pegawai. Fungsi MAX(gaji) mengembalikan nilai terbesar dari kolom gaji, dan hasilnya diberi alias gaji_terbesar.
 
 
 # Soal Latihan Praktikum ( Hewan )
 
-![Screenshot 2024-05-20 135743](https://github.com/nurulaisyah14/TugasPraktikum4/assets/148174512/9f0c6e5a-f54d-4a1a-8ef1-495cbbe256b9)
+![Screenshot 2024-05-20 135743]()
 
 
 **Perintah SQL :**
