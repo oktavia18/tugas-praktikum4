@@ -7,7 +7,7 @@
 
 # Soal Latihan Praktikum ( Pegawai )
 
-![image]([TugasPraktikumP](https://github.com/oktavia18/tugas-praktikum4/assets/147913672/84f613df-e4c9-4612-a9e6-a9cebc5baaeb)
+![image](https://github.com/oktavia18/tugas-praktikum4/assets/147913672/84f613df-e4c9-4612-a9e6-a9cebc5baaeb)
 
 
 
