@@ -37,7 +37,8 @@ INSERT INTO pegawai VALUES
 
 ***Output :***
 
-![alt text]![Screenshot 2024-05-20 134009]()
+![alt text]![Screenshot 2024-05-20 134009](https://github.com/oktavia18/tugas-praktikum4/assets/147913672/add99746-c7d1-49bd-a980-11e6a12a2b54)
+
 
 
 ## Tugas Praktikum
@@ -50,7 +51,8 @@ SELECT*FROM pegawai WHERE gaji NOT IN (2000000, 1250000);
 
 ***Output :***
 
-![Screenshot 2024-05-20 134110]()
+![Screenshot 2024-05-20 134110](https://github.com/oktavia18/tugas-praktikum4/assets/147913672/dca24173-1576-421e-9f10-629aec79492d)
+
 Pernyataan ini menampilkan semua kolom dari tabel pegawai untuk pegawai yang gajinya tidak sama dengan 2.000.000 dan 1.250.000. Kondisi NOT IN (2000000, 1250000) memastikan bahwa hanya pegawai dengan gaji selain kedua nilai tersebut yang ditampilkan.
 
 
@@ -62,7 +64,8 @@ SELECT*FROM pegawai WHERE tunjangan IS NULL;
 
 ***Output :***
 
-![Screenshot 2024-05-20 134155]()
+![Screenshot 2024-05-20 134155](https://github.com/oktavia18/tugas-praktikum4/assets/147913672/e72b0fea-9ba1-49b8-98bf-9008a1870329)
+
 Pernyataan ini menampilkan semua kolom dari tabel pegawai untuk pegawai yang tidak memiliki tunjangan. Kondisi tunjangan IS NULL digunakan untuk memeriksa nilai NULL dalam kolom tunjangan.
 
 
@@ -74,7 +77,8 @@ SELECT*FROM pegawai WHERE tunjangan IS NOT NULL;
 
 ***Output :***
 
-![Screenshot 2024-05-20 134331]()
+![Screenshot 2024-05-20 134331](https://github.com/oktavia18/tugas-praktikum4/assets/147913672/b3ba1f71-555b-400d-b4a1-ed131185ca00)
+
 Pernyataan ini menampilkan semua kolom dari tabel pegawai untuk pegawai yang memiliki tunjangan. Kondisi tunjangan IS NOT NULL digunakan untuk memeriksa nilai yang bukan NULL dalam kolom tunjangan.
 
 
@@ -87,7 +91,8 @@ SELECT COUNT(*) AS jmlh_pegawai FROM pegawai;
 
 ***Output :***
 
-![Screenshot 2024-05-20 134417]()
+![Screenshot 2024-05-20 134417](https://github.com/oktavia18/tugas-praktikum4/assets/147913672/e871dd92-fd10-4452-a7a2-38d29839033b)
+
 Pernyataan ini menghitung jumlah total baris atau record dalam tabel pegawai. Fungsi COUNT(*) mengembalikan jumlah total baris yang ada, dan hasilnya diberi alias jumlah_pegawai.
 
 
@@ -99,7 +104,8 @@ SELECT SUM(gaji) AS ttl_gaji FROM pegawai;
 
 ***Output :***
 
-![Screenshot 2024-05-20 134453]()
+![Screenshot 2024-05-20 134453](https://github.com/oktavia18/tugas-praktikum4/assets/147913672/0f604be8-60ce-43c1-8315-1e8e458eda67)
+
 Pernyataan ini menghitung jumlah total gaji dari semua pegawai dalam tabel pegawai. Fungsi SUM(gaji) menjumlahkan nilai dalam kolom gaji untuk setiap baris, dan hasilnya diberi alias total_gaji.
 
 
@@ -111,7 +117,8 @@ SELECT AVG(gaji) AS mean_gaji FROM pegawai;
 
 ***Output :***
 
-![Screenshot 2024-05-20 134536]()
+![Screenshot 2024-05-20 134536](https://github.com/oktavia18/tugas-praktikum4/assets/147913672/99a4a7f8-0855-4cd6-a0bc-c3e0fd3df607)
+
 Pernyataan ini menghitung rata-rata gaji dari semua pegawai dalam tabel pegawai. Fungsi AVG(gaji) mengembalikan nilai rata-rata dari kolom gaji, dan hasilnya diberi alias rata_rata_gaji.
 
 
@@ -123,7 +130,8 @@ SELECT MIN(gaji) AS terkecil FROM pegawai;
 
 ***Output :***
 
-![Screenshot 2024-05-20 134607]()
+![Screenshot 2024-05-20 134607](https://github.com/oktavia18/tugas-praktikum4/assets/147913672/347fa29f-2252-45ae-b926-f7d19e46814c)
+
 Pernyataan ini menampilkan gaji terkecil di antara semua pegawai dalam tabel pegawai. Fungsi MIN(gaji) mengembalikan nilai terkecil dari kolom gaji, dan hasilnya diberi alias gaji_terkecil.
 
 
@@ -135,13 +143,15 @@ SELECT MAX(gaji) AS terbesar FROM pegawai;
 
 ***Output :***
 
-![Screenshot 2024-05-20 134633]()
+![Screenshot 2024-05-20 134633](https://github.com/oktavia18/tugas-praktikum4/assets/147913672/833a2657-2529-4069-85b4-f48040e6d904)
+
 Pernyataan ini menampilkan gaji terbesar di antara semua pegawai dalam tabel pegawai. Fungsi MAX(gaji) mengembalikan nilai terbesar dari kolom gaji, dan hasilnya diberi alias gaji_terbesar.
 
 
 # Soal Latihan Praktikum ( Hewan )
 
-![Screenshot 2024-05-20 135743]()
+![Screenshot 2024-05-20 135743](https://github.com/oktavia18/tugas-praktikum4/assets/147913672/aac1ed58-5970-44bd-be41-3b22da41d181)
+
 
 
 **Perintah SQL :**
@@ -169,7 +179,8 @@ INSERT INTO hewan VALUES
 
 ***Output :***
 
-![Screenshot 2024-05-20 134743](https://github.com/nurulaisyah14/TugasPraktikum4/assets/148174512/825338e7-435f-4fa0-9835-4fe967ac9d47)
+![Screenshot 2024-05-20 134743](https://github.com/oktavia18/tugas-praktikum4/assets/147913672/7cdcf8d7-27fb-4474-a1b5-1bbd8cf4c5bb)
+
 
 
 ## Tugas Praktikum
@@ -182,7 +193,8 @@ SELECT owner, COUNT(*) AS jmlh_hewan FROM hewan GROUP BY owner;
 
 ***Output :***
 
-![Screenshot 2024-05-20 134811](https://github.com/nurulaisyah14/TugasPraktikum4/assets/148174512/c81a905f-9ffd-4e5c-a637-1b6dbfbf73c7)
+![Screenshot 2024-05-20 134811](https://github.com/oktavia18/tugas-praktikum4/assets/147913672/7da04580-a791-49be-9378-c234b92ca9ac)
+
 Pernyataan ini menghitung jumlah hewan yang dimiliki oleh setiap pemilik (owner). Fungsi COUNT(*) menghitung jumlah hewan, dan hasilnya dikelompokkan berdasarkan kolom owner dengan menggunakan GROUP BY.
 
 
@@ -194,7 +206,8 @@ SELECT species, COUNT(*) AS jmlh_hewan FROM hewan GROUP BY species;
 
 ***Output :***
 
-![Screenshot 2024-05-20 134835](https://github.com/nurulaisyah14/TugasPraktikum4/assets/148174512/e977aa33-b052-4d32-b893-088b562e1171)
+![Screenshot 2024-05-20 134835](https://github.com/oktavia18/tugas-praktikum4/assets/147913672/dce7ef1b-b64d-4b5d-9efe-71b6444272db)
+
 Pernyataan ini menghitung jumlah hewan berdasarkan spesies (species). Fungsi COUNT(*) menghitung jumlah hewan, dan hasilnya dikelompokkan berdasarkan kolom species dengan menggunakan GROUP BY.
 
 
@@ -206,7 +219,8 @@ SELECT sex, COUNT(*) AS jmlh_hewan FROM hewan GROUP BY sex;
 
 ***Output :***
 
-![Screenshot 2024-05-20 134900](https://github.com/nurulaisyah14/TugasPraktikum4/assets/148174512/190eeb6e-6bc0-4a21-a247-968ea89f6b12)
+![Screenshot 2024-05-20 134900](https://github.com/oktavia18/tugas-praktikum4/assets/147913672/fcf2991b-e5e6-4aa4-a166-040d60b91e87)
+
 Pernyataan ini menghitung jumlah hewan berdasarkan jenis kelamin (sex). Fungsi COUNT(*) menghitung jumlah hewan, dan hasilnya dikelompokkan berdasarkan kolom sex dengan menggunakan GROUP BY.
 
 
@@ -218,7 +232,8 @@ SELECT species, sex, COUNT(*) AS jumlah_hewan FROM hewan GROUP BY species, sex;
 
 ***Output :***
 
-![Screenshot 2024-05-20 135017](https://github.com/nurulaisyah14/TugasPraktikum4/assets/148174512/e8a4917a-5364-482a-9e86-8a49a5380cb1)
+![Screenshot 2024-05-20 135017](https://github.com/oktavia18/tugas-praktikum4/assets/147913672/c22cdac4-1ba4-4371-be44-bbee37c2235f)
+
 Pernyataan ini menghitung jumlah hewan berdasarkan kombinasi spesies (species) dan jenis kelamin (sex). Fungsi COUNT(*) menghitung jumlah hewan, dan hasilnya dikelompokkan berdasarkan kombinasi kolom species dan sex dengan menggunakan GROUP BY.
 
 
@@ -232,7 +247,8 @@ GROUP BY species, sex;
 
 ***Output :***
 
-![Screenshot 2024-05-20 135226](https://github.com/nurulaisyah14/TugasPraktikum4/assets/148174512/2293b1af-5f17-48d8-8fb2-3827fc53fc5e)
+![Screenshot 2024-05-20 135226](https://github.com/oktavia18/tugas-praktikum4/assets/147913672/2f5c2144-5113-4564-ab65-bfdd03814aae)
+
 Pernyataan ini menghitung jumlah hewan berdasarkan spesies (species) yang hanya berupa 'cat' dan 'dog', dan jenis kelamin (sex). Kondisi WHERE species IN ('cat', 'dog') memfilter data hanya untuk spesies 'cat' dan 'dog', dan hasilnya dikelompokkan berdasarkan kombinasi kolom species dan sex dengan menggunakan GROUP BY.
 
 
@@ -244,7 +260,8 @@ SELECT sex, COUNT(*) AS jumlah_hewan FROM hewan WHERE sex IS NOT NULL GROUP BY s
 
 ***Output :***
 
-![Screenshot 2024-05-20 135250](https://github.com/nurulaisyah14/TugasPraktikum4/assets/148174512/a151022b-f2f1-4c7f-a43a-9e655c4550a8)
+![Screenshot 2024-05-20 135250](https://github.com/oktavia18/tugas-praktikum4/assets/147913672/5aebf95c-388e-4255-bf84-ab0a527069a1)
+
 Pernyataan ini menghitung jumlah hewan berdasarkan jenis kelamin (sex) yang diketahui saja, yaitu yang kolom sex-nya tidak bernilai NULL. Kondisi WHERE sex IS NOT NULL memfilter data hanya untuk jenis kelamin yang diketahui, dan hasilnya dikelompokkan berdasarkan kolom sex dengan menggunakan GROUP BY.
 
 
